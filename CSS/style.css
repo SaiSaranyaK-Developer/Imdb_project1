@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital@0;1&family=Lato:wght@700&family=Oswald:wght@600&family=Roboto:wght@100&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+/* a:hover{
+    
+   
+    color:#f5c518;
+} */
+
+header{
+    background-color: black;
+   
+    /* height:12vh; */
+    /* max-height:100%; */
+    
+}
+ header nav{
+    display: flex;
+    margin:0 7vw;
+    height:12vh;
+    /* max-height:100%; */
+    cursor: pointer;
+}
+header nav ul{
+    float: left;
+    display: flex;
+    
+}
+.imdbicon{
+    height:5vw;
+    margin:0 15px;
+}
+header nav ul li{
+    list-style-type: none;
+    margin:0 20px;
+}
+.watchlist{
+    color:white;
+    font-size: 1.5em;
+    font-family: 'Roboto', sans-serif;
+    margin-top:18px;
+    
+}
+
+.usericon{
+    height: 3vw;
+    border: 2px solid #fbdd53;
+    border-radius: 30%;
+}
+.usericon1{
+    margin-top: 12px;
+}
+.searchbar{
+    margin-top: 20px;
+    
+}
+.searchbar input{
+        background-color: #504e4d;
+        width: 31vw;
+        margin-left: 13vw;
+        height: 4vh;
+        border-radius: 5px;
+        padding:2px 4px;
+        border:1px solid white;
+        color:#c3bebe;
+}
+

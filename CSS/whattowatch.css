@@ -1,0 +1,230 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.whattowatch{
+    background-color: black;
+    width:100%;
+    padding-top: 2%;
+}
+.whattowatch2{
+    width:80%;
+    margin-left: 10%;
+}
+.toppicks{
+    /* background-color: brown; */
+    margin-top: 2%;
+    height:72vh;
+    display: flex;
+    width:80%;
+    margin-left: 10%;
+    justify-content: space-between;
+    position: relative;
+}
+.scroll{
+    z-index: 2;
+    width:5%;
+    height:9%;
+    background-color: #a5a2a225;
+    position: absolute;
+    right:-2%;
+    top:25%;
+    padding-bottom: 3%;
+   color: white;
+   text-align: center;
+   border: 2px solid white;
+   border-radius: 3px;
+   cursor: pointer;
+  
+    
+}
+ .arrow{
+    font-weight: 200;
+    font-size: 4rem;
+    margin-left:20%;
+    margin-bottom: 10%;
+    margin-top: 5%;
+}
+.arrow:hover{
+    color:#f5c518;
+    transform: scale(1.1);
+}
+.trailerinfo{
+    display: flex;
+    margin-top: 4%;
+}
+.toppicktrailer{
+    text-align: center;
+    color:white;
+    /* background-color: rgba(185, 108, 108, 0.182); */
+    font-size: 1.1rem;
+    height:15%;
+    padding: 2% 0;
+    /* margin-top: 4%; */
+    font-weight: bold;
+    width:60%;
+    margin-right: 16%;
+    /* padding-right: 2%; */
+    cursor: pointer;
+}
+.toppicktrailer:hover{
+    background-color: rgba(3, 1, 1, 0.288);
+}
+
+.top10{
+    width:100%;
+    background-color: black;
+}
+.top10row{
+    width: 80%;
+    margin-left: 10%;
+    height:72vh;
+    margin-top: 2%;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+.watchplus{
+    font-size: 1.4rem;
+    font-weight: 400;
+}
+.ottstreaming{
+    background-color: black;
+    width:100%;
+}
+.ottrow{
+    width:80%;
+    margin-top: 2%;
+    margin-left: 10%;
+    height:75vh;
+    /* background-color: #f5c518; */
+}
+.ottlist{
+    display: flex;
+}
+.ottlist li{
+    list-style: none;
+    margin:5px 13px 2px 0;
+    font-size: 1em;
+    cursor: pointer;
+    padding:5px;
+    color:white;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif ;
+    text-transform: uppercase;
+    width:9%;
+    text-align: center;
+}
+.ottlist li:hover{
+    background-color: gray;
+    text-decoration: underline 3px solid #f5c518;
+    color:black;
+}
+.ottmovrow{
+    width:100%;
+    height:90%;
+    /* background-color: red; */
+    margin-top: 1.5%;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+.ottmov1{
+    width:30%;
+    height:90%;
+    border: 2px solid black;
+    background-color: #f5c518;
+}
+.ottwatchnow{
+    color:rgb(1, 121, 250);
+    background-color: rgba(0, 0, 0, 0.233);
+    margin-top: 5.5%;
+    text-align: center;
+    font-size: 1.1rem;
+    height:15%;
+    padding:2%;
+    font-weight: 700;
+    cursor: pointer;
+    width:80%;
+    /* margin-left: 13%; */
+    border-radius: 3px;
+}
+.ottimg{
+    width:30%;
+    height:60%;
+    border: 2px solid rgb(217, 14, 14);
+    border-radius: 50%;
+}
+.ottimg img{
+    width:100%;
+    height:100%;
+    border-radius: 50%;
+}
+.ottmovdesc{
+    display: flex;
+    justify-content: space-between;
+    padding:4%;
+    background-color: rgba(240, 248, 255, 0.125);
+    height:20%;
+}
+.ottmovtrailer{
+    text-align: center;
+    color:white;
+    /* background-color: rgba(185, 108, 108, 0.182); */
+    font-size: 1.1rem;
+    height:15%;
+    border-radius: 3px;
+    padding:2%;
+    margin-top: 5%;
+    margin-left: 5%;
+    font-weight: bold;
+    width:50%;
+    /* margin-left: 13%; */
+    cursor: pointer;
+}
+.ottmovtrailer:hover{
+    background-color: rgba(3, 1, 1, 0.288);
+
+}
+.ottmovie1{
+    margin-right: 3%;
+    width:32%;
+    border: 2px solid black;
+    background-color: #1a1a1a;
+   
+    height:75%;
+}
+.ottdesc{
+    height:100%;
+    width:100%;
+    margin-top:3%;
+    /* margin-left:10%; */
+    
+}
+
+.ottmovdesc{
+    height:34%;
+    background-color: #1a1a1a;
+}
+.ottmovdesc1{
+    width:50%;
+    /* background-color: red; */
+}
+
+.ottmovrating{
+    font-family:Helvetica,Arial,sans-serif;
+    font-size: 1.1rem;
+    font-weight: 400;
+    line-height: 1.7rem;
+    color:#a5a2a2;
+}
+.ottmovname{
+    color:white;
+    font-size: 1.1rem;
+    letter-spacing: .03125em;
+    margin:2% 0;
+    cursor: pointer;
+}
+.ottmovname:hover{
+    text-decoration: underline;
+}

@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+footer{
+    width: 100%;
+    /* height: 80vh; */
+    background-color: black;
+    padding-top: 5%;
+    
+}
+.footer1{
+    width:80%;
+    margin-left: 10%;
+    background-color: black;
+    height:80%;
+    display: flex;
+    flex-direction: column;
+    color:white;
+    justify-content: center;
+    align-items: center;
+}
+.row1{
+    width:20%;
+    padding:10px;
+    background-color: var(--imdbcolor);
+    text-align: center;
+    color: black;
+    border-radius: 15px;
+    height:5%;
+    font-size: 1.3rem;
+    font-weight: 700;
+    cursor: pointer;
+}
+.icons{
+    width:70px;
+    height:60px;
+    
+}
+.foot3 {
+    width:100%;
+    display: inline-flex;
+    /* background-color: red; */
+    margin:5% 0;
+    
+}
+.foot4{
+    width:100%;
+    display: inline-flex;
+    /* background-color: red; */
+    margin:3% 0;
+
+}
+.row2 ul li{
+    font-size:1.7rem;
+    /* border: 2px solid white; */
+    text-align:center ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    margin:3%;
+    cursor: pointer;
+    list-style: none;
+
+}
+.row2 ul li:hover{
+    background-color: rgba(255, 255, 255, 0.274);
+    
+} 
+.row3{
+    width:80%;
+    margin-left: 20%;
+}
+.footerlinks{
+    list-style: none;
+    margin:0% 3%;
+    cursor: pointer;
+    height:80%;
+    /* width:40%; */
+    /* background-color: blue; */
+}
+.footerlinks a:hover{
+    text-decoration: underline 2px var(--imdbcolor);
+}
+.row4{
+    width:80%;
+    margin-left: 13%;
+    margin-bottom: 2%;
+    /* background-color: aqua; */
+}
+.foot5{
+    width:100%;
+    display: inline-flex;
+    /* background-color: red; */
+    
+}
+.row6{
+   margin-bottom: 3%;
+}

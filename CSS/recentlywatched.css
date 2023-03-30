@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.recentlywatched{
+    width:100%;
+    /* height:100%; */
+    background-color:black;
+    /* margin-bottom: 3%; */
+}
+
+.recentlywatched2{
+    width:80%;
+    margin-left: 10%;
+    /* background-color: red; */
+    /* height:20vh; */
+}
+.recentheading{
+    color: white;
+}
+
+.recentrow{
+    width:100%;
+    height:80%;
+    color: aliceblue;
+    margin-top: 2%;
+    /* margin-bottom: 2%; */
+}
