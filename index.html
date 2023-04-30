@@ -17,12 +17,13 @@
     <link rel="stylesheet" href="CSS/animation.css">
     <link rel="stylesheet" href="CSS/recentlywatched.css">
     <link rel="stylesheet" href="CSS/footer.css">
+    <link rel="stylesheet" href="CSS/darklightmode.css">
 
 
 </head>
 
 <body>
-    <header>
+    <header id="navba">
         <nav>
             <ul>
                 <li>
@@ -32,8 +33,9 @@
                     <div class="searchbar"><input type="text" placeholder="Search here" /></div>
                 </li>
 
-                <li class="watchlist"><span>WatchList()</span></li>
+                <li class="watchlist"><span id="watchlistid">WatchList()</span></li>
                 <li class="usericon1"><img src="images/user icon.jpeg" alt="user icon" class="usericon"></li>
+                <li class="imdb"><img src="images/brightness.png" alt="darklight icon" class="darklighticon" id="darklight" title="Dark/light" onclick="darklightfun()"></li>
             </ul>
         </nav>
     </header>
@@ -77,10 +79,10 @@
             </div>
         </div>
 
-        <div class="comsoon">
+        <div class="comsoon" id="comsoon">
             <div class="sectitle">
-                <h1 class="comsoonheading">Coming soon to theatres ></h1>
-                <p class="secdescription">Trailers for upcoming releases</p>
+                <h1 class="comsoonheading" id="comsoonheading">Coming soon to theatres ></h1>
+                <p class="secdescription" id="secdescription">Trailers for upcoming releases</p>
             </div>
             <div class="comsoontrailersec">
                 <div class="scroll">
@@ -151,7 +153,7 @@
             <div class="topnews1">
                 <div class="exclusivevideos">
                     <h1 class="exclusiveheading">Exclusive videos</h1>
-                    <h1 class="comsoonheading1">Top news</h1>
+                    <h1 class="comsoonheading1" id="newstop">Top news</h1>
                     <p class="secdescription">Celebrity interviews, trending entertainment stories, and expert analysis
                     </p>
                 </div>
@@ -202,11 +204,11 @@
             <div class="intheatres1">
                 <div class="intheatres2">
                     <h1 class="exclusiveheading">Explore Movies & TV shows</h1>
-                    <h1 class="comsoonheading1">In theatres</h1>
+                    <h1 class="comsoonheading1" id="intheatres3">In theatres</h1>
                     <p class="secdescription">Showtimes near you
                     </p>
                 </div>
-                <div class="theatremovrow">
+                <div class="theatremovrow" id="theatrerow">
                     <div class="scroll">
                         <h2 class="arrow" style="color:white">></h2>
                     </div>
@@ -312,10 +314,10 @@
             </div>
         </div>
 
-        <div class="whattowatch">
+        <div class="whattowatch" id="whattawatch">
             <div class="whattowatch2">
                 <h1 class="exclusiveheading">What to watch</h1>
-                <h1 class="comsoonheading1">Top picks</h1>
+                <h1 class="comsoonheading1" id="toppicking">Top picks</h1>
                 <p class="secdescription">TV shows and movies just for you
                 </p>
             </div>
@@ -444,7 +446,7 @@
 
             <div class="top10" id="fanfav">
                 <div class="whattowatch2">
-                    <h1 class="comsoonheading1">Top 10 on IMDb this week</h1>
+                    <h1 class="comsoonheading1" id="top10heading">Top 10 on IMDb this week</h1>
                     <p class="secdescription">This week's top TV and movies
                     </p>
                 </div>
@@ -547,12 +549,12 @@
 
             <div class="ottstreaming" id="ott">
                 <div class="whattowatch2">
-                    <h1 class="comsoonheading1">Explore what's streaming</h1>
+                    <h1 class="comsoonheading1" id="explore">Explore what's streaming</h1>
                     <p class="secdescription">This week's Ott releases
                     </p>
                 </div>
                 <div class="ottrow">
-                    <ul class="ottlist">
+                    <ul class="ottlist" id="ottlisting">
                         <li>Netflix</li>
                         <li>Prime video</li>
                         <li>hotstar</li>
@@ -635,11 +637,11 @@
 
         </div>
 
-        <div class="recentlywatched">
+        <div class="recentlywatched" id="recent">
             <div class="recentlywatched2">
-                <h1 class="recentheading">Recently viewed</h1>
+                <h1 class="recentheading" id="recentwatch">Recently viewed</h1>
 
-                <div class="recentrow">You have no recenty viewed pages</div>
+                <div class="recentrow" id="recentrow">You have no recenty viewed pages</div>
             </div>
         </div>
 
@@ -648,8 +650,8 @@
 
     </main>
 
-    <footer>
-        <div class="footer1">
+    <footer id="foot">
+        <div class="footer1" id="foot1">
             <div class="row1">sign in for more access</div>
             <div class="row2">
                 <ul class="foot3">
@@ -660,7 +662,7 @@
 
                 </ul>
             </div>
-            <div class="row3">
+            <div class="row3" id="foot11">
                 <ul class="foot4">
                     <li class="footerlinks"><a
                             href="https://apps.apple.com/us/app/id342792525?_branch_match_id=1168430568739508698&_branch_referrer=H4sIAAAAAAAAA8soKSkottLXL86pTNJLLCjQy8nMy9YP9k6pDDRzNDGxBABVqlN1IAAAAA%3D%3D&utm_campaign=mdot%20sitewide%20footer%20Branch%20update&utm_medium=marketing&utm_source=IMDb%20Mdot" target="_blank">Get
@@ -699,7 +701,8 @@
         </div>
     </footer>
 
-
+<script src="javascri.js"></script>
 </body>
+
 
 </html>

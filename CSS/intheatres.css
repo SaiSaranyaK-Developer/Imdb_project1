@@ -12,6 +12,7 @@
     margin-left: 10%;
     height:100%;
     padding-top:4%;
+    /* background-color: black; */
 }
 .theatremovrow{
     display: flex;
@@ -26,6 +27,7 @@
     width:15%;
     height:90%;
     border: 2px solid black;
+    background-color: black;
 }
 .theatremovimg{
     position: relative;
@@ -49,7 +51,7 @@
 .theatremovdesc{
     padding:4%;
     background-color: rgba(240, 248, 255, 0.125);
-    height:35%;
+    height:38%;
 }
 .theatremovdesc .theatremovrating{
     font-family:Helvetica,Arial,sans-serif;
