@@ -19,7 +19,30 @@ a{
    
     color:#f5c518;
 } */
-
+#container{
+    z-index: 10;
+}
+#image{
+    width:100%;
+    height:100%;
+}
+#buttonid{
+    position: absolute;
+    right: 0%;
+    width: 10%;
+    height: 15%;
+    font-size: 3.5em;
+    background-color: #504e4d;
+    color: white;
+}
+#coupon{
+    z-index: 50;
+    width: 50%;
+    height:50%;
+    position:absolute;
+    left:24%;
+    top:30%;
+}
 header{
     background-color: black;
     color: white;

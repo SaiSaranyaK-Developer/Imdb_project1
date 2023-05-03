@@ -43,3 +43,13 @@ let darklightfun=()=>{
     foot1.classList.toggle("recentwatch");
     foot11.classList.toggle("recentwatch");
 }
+
+function opencoupon(){
+    document.getElementById("coupon").style.visibility='visible';
+    document.getElementById("container").style.opacity='0.3';
+}
+
+function couponclose(){
+    document.getElementById("coupon").style.visibility='hidden';
+    document.getElementById("container").style.opacity='1';
+}
